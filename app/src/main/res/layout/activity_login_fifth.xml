@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/fifthbg"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blackish"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blackish_inverse">
+
+            <Space
+                android:id="@+id/space2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/space2"
+                android:layout_centerInParent="true"
+                android:text="Choose from between take a photo or pick a photo from gallery"
+                android:textAlignment="center"
+                android:textColor="#d0d0d0"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/prata"
+                android:text="Great! We're almost there, now let us notice how you look."
+                android:textAlignment="center"
+                android:textColor="#dcdcdc"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/backarrow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:background="#00000000"
+                app:srcCompat="@drawable/back" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/space2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="#00ffffff"
+                app:srcCompat="@drawable/circle2img" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#00000000"
+                android:text="Setup my photo"
+                android:textAllCaps="false"
+                android:textColor="#d0d0d0" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

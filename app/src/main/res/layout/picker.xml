@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#fefefe"
+        android:padding="5dp"
+        android:shadowColor="#161616"
+        android:shadowDx="3"
+        android:shadowDy="4"
+        android:shadowRadius="2"
+        android:text="Take a photo"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#161616"
+        android:textSize="24sp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#fefefe"
+        android:padding="5dp"
+        android:shadowColor="#161616"
+        android:shadowDx="3"
+        android:shadowDy="4"
+        android:shadowRadius="2"
+        android:text="Pick a photo"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#161616"
+        android:textSize="24sp" />
+</LinearLayout>

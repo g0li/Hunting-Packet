@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eighthbg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/colorish2">
+
+        <Space
+            android:id="@+id/space2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/space2"
+            android:layout_marginBottom="65dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/w1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/foto"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/foto"
+            android:background="#aa48b1bf"
+            android:fontFamily="@font/prata"
+            android:paddingRight="14dp"
+            android:text="Roshan\nSingh"
+            android:textAlignment="textEnd"
+            android:textColor="#dcdcdc"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/caller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dob"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/foto"
+            android:background="#aa48b1bf"
+            android:paddingRight="14dp"
+            android:text="+000987654321"
+            android:textAlignment="textEnd"
+            android:textColor="#fefefe"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/dob"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/caller"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#aa48b1bf"
+            android:paddingRight="14dp"
+            android:text="iprogramyourapp@gmail.com"
+            android:textColor="#fefefe"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/foto"
+            android:background="#aa48b1bf"
+            android:paddingRight="14dp"
+            android:text="14 October,1996"
+            android:textAlignment="textEnd"
+            android:textColor="#d9d9d9" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#aa48b1bf"
+            android:text="exit"
+            android:textColor="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:text="Hola!"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+</LinearLayout>
